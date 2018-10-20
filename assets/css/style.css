@@ -4,13 +4,21 @@ body{
 	font-family: 'Open Sans', sans-serif;
 }
 
+ol,ul li{
+	list-style:  none;
+}
+
+a{
+	text-decoration: none;
+}
+
 .organizacoes{
 	display: flex;
 	flex-wrap: wrap;
 }
 
-.organizacoes{
-	display: flex;
+.org{
+	display: inline-flex;
 	flex-wrap: row wrap;
 	border: 1px solid purple;
 }
@@ -18,6 +26,8 @@ body{
 .fenea, .caeb, .incendio{
 	border: 2px solid blue;
 	width: 33%;
+	margin: 2px;
+	padding: 5px;
 }
 
 .card-projetos{
