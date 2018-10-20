@@ -12,6 +12,66 @@ a{
 	text-decoration: none;
 }
 
+nav > ul{
+	background: #ADA996;    
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    padding-bottom: 15px;
+    align-items: center;
+    margin: 0;
+}
+
+nav > ul > li{
+	padding: 5px;
+}
+
+.container{
+	border: 1px solid yellow;
+	display: flex;
+	/*height: 30%;*/
+}
+
+.container > .perfil, .resumo{
+	border: 1px solid blue;
+
+}
+
+.name{
+	text-align: center;
+	padding: 10px;
+}
+
+.name > h1{
+	font-size: 30pt;
+	margin: 0px;
+	padding: 3px;
+}
+
+.name > p{
+	font-size: 15pt;
+	margin: 0;
+	padding: 3px;
+}
+
+.perfil{
+	text-align: center;
+	
+}
+
+.perfil > p{
+	margin: 0;
+}
+
+.experiencia{
+	border: 2px solid pink;
+}
+
+.experiencia > ._spu-ma, ._fab-lab, ._caeb, ._fenea{
+	border: 2px solid green;
+	margin-right: 3px 3px 0px;
+}
+
 .organizacoes{
 	display: flex;
 	flex-wrap: wrap;
