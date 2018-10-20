@@ -3,3 +3,43 @@ body{
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;
 }
+
+.organizacoes{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.organizacoes{
+	display: flex;
+	flex-wrap: row wrap;
+	border: 1px solid purple;
+}
+
+.fenea, .caeb, .incendio{
+	border: 2px solid blue;
+	width: 33%;
+}
+
+.card-projetos{
+	border: 2px solid red;
+	display: flex;
+	width: 200px;
+  	height: 100px;
+  	margin-top: 3px;
+  	margin-bottom: 3px;
+  	margin-left: 2px;
+  	margin-right: 2px;
+}
+
+.arq, .urbanismo, .design, .front-end{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.portfolio > div > div > h3{
+	padding: 20px;
+}
+
+footer{
+	text-align: center;
+}
