@@ -71,18 +71,35 @@ nav > ul > li{
 	text-align: center;
 }
 
-.formacao-academica >
+.formacao-academica{
+	display: flex;
+	flex-direction: row;
 
-.ensino{
+}
+
+/*.ensino{
 	border: 1px solid gold;
-	/*margin-right: 3px 3px 0px;*/
+	margin-right: 3px 3px 0px;
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: center;
 	margin: 3px 0px;
-
+	flex-wrap: wrap;
+}
+*/
+.card-ensino{
+	border: 2px solid red;
+	display: flex;
+	width: 25%;
+  	flex-direction: column;
+  	align-items: center;
+  	
 }
 
+.baixo{
+	display: flex;
+	flex-direction: row-reverse;
+}
 
 .experiencia{
 	border: 2px solid pink;
