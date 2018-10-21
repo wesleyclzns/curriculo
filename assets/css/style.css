@@ -67,9 +67,28 @@ nav > ul > li{
 	border: 2px solid pink;
 }
 
-.experiencia > ._spu-ma, ._fab-lab, ._caeb, ._fenea{
+.experiencia > ._exp{
 	border: 2px solid green;
 	margin-right: 3px 3px 0px;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+
+}
+
+.esq{
+	width: 50%;
+	direction: rtl;
+}
+
+
+.dir{
+	width: 50%;
+}
+
+.text{
+	margin: 3px;
+	padding: 3px;
 }
 
 .organizacoes{
