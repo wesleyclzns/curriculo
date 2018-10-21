@@ -1,7 +1,11 @@
 body{
 	margin: 0;
-	padding: 0;
+	padding: 0px;
 	font-family: 'Open Sans', sans-serif;
+}
+
+main{
+	padding: 0px 30px 0px 30px;
 }
 
 ol,ul li{
@@ -10,6 +14,11 @@ ol,ul li{
 
 a{
 	text-decoration: none;
+	color: #42275a;
+}
+
+h1, h2, h3, h4{
+	color: #42275a;
 }
 
 nav > ul{
@@ -26,14 +35,18 @@ nav > ul > li{
 	padding: 5px;
 }
 
+.fa, .fa-github, .fa-instagram, .fa-behance, .fa-twitter, .fa-heart{
+	color: #42275a;
+}
+
 .container{
-	border: 1px solid yellow;
+	/*border: 1px solid yellow;*/
 	display: flex;
 	/*height: 30%;*/
 }
 
 .container > .perfil, .resumo{
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
 
 }
 
@@ -63,8 +76,19 @@ nav > ul > li{
 	margin: 0;
 }
 
+.resumo{
+	padding-left: : 10px;
+	margin-left: 15px;
+	margin-top: 50px;
+}
+
+#resumo > h2{
+	margin-top: 35px;
+	margin-bottom: 20px;
+}
+
 .formacao-academica{
-	border: 2px solid black;
+	/*border: 2px solid black;*/
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -75,6 +99,11 @@ nav > ul > li{
 	display: flex;
 	flex-direction: row;
 
+}
+
+.baixo{
+	display: flex;
+	flex-direction: column;
 }
 
 /*.ensino{
@@ -88,7 +117,7 @@ nav > ul > li{
 }
 */
 .card-ensino{
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 	display: flex;
 	width: 25%;
   	flex-direction: column;
@@ -102,11 +131,11 @@ nav > ul > li{
 }
 
 .experiencia{
-	border: 2px solid pink;
+	/*border: 2px solid pink;*/
 }
 
 .experiencia > ._exp{
-	border: 2px solid green;
+	/*border: 2px solid green;*/
 	/*margin-right: 3px 3px 0px;*/
 	display: flex;
 	flex-direction: row-reverse;
@@ -116,7 +145,7 @@ nav > ul > li{
 }
 
 .esq{
-	width: 50%;
+	width: 40%;
 	direction: rtl;
 }
 
@@ -138,18 +167,18 @@ nav > ul > li{
 .org{
 	display: inline-flex;
 	flex-wrap: row wrap;
-	border: 1px solid purple;
+	/*border: 1px solid purple;*/
 }
 
 .fenea, .caeb, .incendio{
-	border: 2px solid blue;
+	/*border: 2px solid blue;*/
 	width: 33%;
 	margin: 2px;
 	padding: 5px;
 }
 
 .card-projetos{
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 	display: flex;
 	width: 200px;
   	height: 100px;
@@ -157,6 +186,12 @@ nav > ul > li{
   	margin-bottom: 3px;
   	margin-left: 2px;
   	margin-right: 2px;
+  	background-image: url('../img/calazans_pathern.png');
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  	
 }
 
 .arq, .urbanismo, .design, .front-end{
@@ -171,7 +206,7 @@ nav > ul > li{
 }
 
 .card-habilidades{
-	border: 1px solid silver;
+	/*border: 1px solid silver;*/
 	width: 100px;
 }
 
@@ -185,7 +220,7 @@ nav > ul > li{
 }
 
 .card-hobies{
-	border: 1px solid silver;
+	/*border: 1px solid silver;*/
 	width: 100px;
 }
 
