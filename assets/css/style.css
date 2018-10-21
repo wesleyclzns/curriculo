@@ -63,16 +63,38 @@ nav > ul > li{
 	margin: 0;
 }
 
+.formacao-academica{
+	border: 2px solid black;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.formacao-academica >
+
+.ensino{
+	border: 1px solid gold;
+	/*margin-right: 3px 3px 0px;*/
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	margin: 3px 0px;
+
+}
+
+
 .experiencia{
 	border: 2px solid pink;
 }
 
 .experiencia > ._exp{
 	border: 2px solid green;
-	margin-right: 3px 3px 0px;
+	/*margin-right: 3px 3px 0px;*/
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: center;
+	margin: 3px 0px;
 
 }
 
