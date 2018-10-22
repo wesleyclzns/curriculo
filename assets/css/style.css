@@ -167,7 +167,17 @@ nav > ul > li{
 .org{
 	display: inline-flex;
 	flex-wrap: row wrap;
-	/*border: 1px solid purple;*/
+}
+
+.img-org > img{
+	border-radius: 150px;
+}
+
+.orgs{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 25px;
 }
 
 .fenea, .caeb, .incendio{
@@ -217,6 +227,7 @@ nav > ul > li{
 .hobies{
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 }
 
 .card-hobies{
